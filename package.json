@@ -1,0 +1,35 @@
+{
+  "name": "openapi-graph-types",
+  "version": "0.0.1-alpha.1.0",
+  "description": "The types of the openapi-graph library.",
+  "main": "./lib/index.js",
+  "keywords": [
+    "openapi3",
+    "graph-structures",
+    "ts-library",
+    "types"
+  ],
+  "homepage": "https://github.com/onmax/openapi-graph-types",
+  "bugs": "https://github.com/onmax/openapi-graph-types/issues",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "author": "onmax",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "url": "git://github.com/onmax/openapi-graph-types.git"
+  },
+  "devDependencies": {
+    "openapi-types": "^7.2.3",
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.3"
+  }
+}
