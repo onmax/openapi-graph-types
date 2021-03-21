@@ -10,5 +10,5 @@ export interface RefEdgeInterface extends EdgeInterface {
     getType(ref: string): RefType | undefined;
     getTokenName(ref: string): string;
     resolveAbsolutePath(absolutePath: string, ref: string): string;
-    getFullPath(): void;
+    getFullPath(): string;
 }
