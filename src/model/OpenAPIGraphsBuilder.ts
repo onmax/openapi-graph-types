@@ -3,5 +3,5 @@ import { Edges, EdgesRefDict, Nodes, OpenAPIContent, OpenAPIGraphInterface } fro
 export type OpenAPIGraphsBuilderConstructor = new (apis: OpenAPIContent[]) => OpenAPIGraphsBuilderInterface;
 
 export interface OpenAPIGraphsBuilderInterface {
-    graphs: OpenAPIGraphInterface[];
+    graphs: { [key: string]: OpenAPIGraphInterface };
 }
